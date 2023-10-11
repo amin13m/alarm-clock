@@ -1,0 +1,99 @@
+/* CSS Document */
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url("images/8-200x200.jpg");
+    background-repeat: inherit;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div1{
+    width: 200px;
+    border: solid 5px black;
+    height: 70px;
+    content: counter(name);
+    background-color: rgb(192, 192, 188);
+}
+
+
+p{
+    text-align: center;
+    font:italic 20px black;
+}
+
+
+
+.style{
+    font-size: 40px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+.img {
+    max-width: 200px;
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+
+
+.pdiv{
+    border: solid 5px rgb(51, 184, 224);
+    width: 300px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#h{
+    float: left;
+  width: 100px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+ #m{
+    width: 100px;
+    margin: 15px;
+    float: right;
+    border-radius: 10px;
+ }
+
+select{
+    font-size: 30px;
+    background-color: aquamarine;
+}
+
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+button{
+    margin-left: 50px;
+    width: 200px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+
+.disable{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
